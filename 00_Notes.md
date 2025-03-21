@@ -4,11 +4,8 @@
 
 ## Basics
 ```sql
-// Single line comment
+SQL is a Structured query language used to access and manipulate data in databases. SQL stands for Structured Query Language. We can create, update, delete, and retrieve data in databases like MySQL, Oracle, PostgreSQL, etc. Overall, SQL is a query language that communicates with databases.
 
-/*
-Multi line comment
-*/
 ```
 
 
