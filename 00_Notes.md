@@ -25,8 +25,15 @@ Overall, SQL is a query language that communicates with databases.
 */
 ```
 
-## Head
+### SELECT Statement
 ```sql
+The SELECT statement is used to select data from a database.
+
+SELECT * FROM TableName
+To get all column of a table.
+
+SELECT column1, column2, column3 FROM TableName
+To get selective column of a table.
 
 ```
 
