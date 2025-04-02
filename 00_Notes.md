@@ -35,6 +35,10 @@ To get all column of a table.
 SELECT column1, column2, column3 FROM TableName
 To get selective column of a table.
 
+Example :
+SELECT * FROM address
+SELECT address, district FROM address
+
 ```
 
 ### Body
