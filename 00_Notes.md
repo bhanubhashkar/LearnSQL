@@ -25,7 +25,7 @@ Overall, SQL is a query language that communicates with databases.
 */
 ```
 
-### SELECT Statement
+## SELECT Statement
 ```sql
 Intro :
 The SELECT statement is used to select data from a database.
@@ -49,7 +49,7 @@ Keynote:
 
 ```
 
-### ORDER BY Clause
+## ORDER BY Clause
 ```sql
 Intro :
 The ORDER BY clause is used to sort the result-set in ascending or descending order.
