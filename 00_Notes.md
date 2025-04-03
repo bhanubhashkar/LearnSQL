@@ -34,18 +34,19 @@ Syntax :
 SELECT column1, column2, ...
 FROM table_name;
 
-SELECT * FROM TableName
-To get all column of a table.
-
-SELECT column1, column2, column3 FROM TableName
-To get selective column of a table.
-
 Example :
-SELECT * FROM address
-SELECT address, district FROM address
-SELECT first_name, last_name, email FROM customer
+SELECT * FROM table_name;
+Return all column from a table.
+
+SELECT column1, column2, column3 FROM TableName;
+Return selective column from a table.
 
 Keynote:
+
+
+Exercise :
+SELECT address, district FROM address;
+SELECT first_name, last_name, email FROM customer;
 
 ```
 
@@ -60,13 +61,55 @@ FROM table_name
 ORDER BY column1, column2, ... ASC|DESC;
 
 Example :
+SELECT column1, column2
+FROM table_name
+ORDER BY column1 ASC;
+Sort column1 in ascending order.
 
+SELECT column1, column2
+FROM table_name
+ORDER BY column1 DESC;
+Sort column1 in descending order.
 
-Syntax :
+SELECT column1, column2
+FROM table_name
+ORDER BY column1 ASC, column2 ASC;
+Sort column1 & column2 in ascending order.
+
+SELECT column1, column2
+FROM table_name
+ORDER BY column1 ASC, column2 DESC;
+Sort column1 in ascending & column2 in descending order.
+
+SELECT column1, column2
+FROM table_name
+ORDER BY 1 ASC, 2 DESC;
+Sort column1 in ascending & column2 in descending order using column no.
+
+Keynote :
+Default behavior of the ORDER BY clause is Ascending Order.
+To apply sort by, column no of the result set can be used. Not recommended as it decrease readability. 
+
+Exercise :
+SELECT * FROM payment
+ORDER BY customer_id, amount;
+
+SELECT * FROM payment
+ORDER BY customer_id, amount DESC;
+
+SELECT * FROM books
+ORDER BY price DESC;
+
+Below two query returns same result.
+SELECT first_name, last_name, email FROM customer
+ORDER BY first_name DESC, last_name DESC;
+
+SELECT first_name, last_name, email FROM customer
+ORDER BY 1 DESC, 2 DESC;
 
 ```
 
-### Topic Name
+## Topic Name
 ```sql
 Intro :
 
@@ -75,6 +118,9 @@ Syntax :
 
 
 Example :
+
+
+Exercise :
 
 
 Keynote :
