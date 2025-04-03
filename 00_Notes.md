@@ -27,7 +27,12 @@ Overall, SQL is a query language that communicates with databases.
 
 ### SELECT Statement
 ```sql
+Intro :
 The SELECT statement is used to select data from a database.
+
+Syntax :
+SELECT column1, column2, ...
+FROM table_name;
 
 SELECT * FROM TableName
 To get all column of a table.
@@ -38,15 +43,48 @@ To get selective column of a table.
 Example :
 SELECT * FROM address
 SELECT address, district FROM address
+SELECT first_name, last_name, email FROM customer
+
+Keynote:
 
 ```
 
-### Body
+### ORDER BY Clause
 ```sql
+Intro :
+The ORDER BY clause is used to sort the result-set in ascending or descending order.
+
+Syntax :
+SELECT column1, column2, ...
+FROM table_name
+ORDER BY column1, column2, ... ASC|DESC;
+
+Example :
+
+
+Syntax :
 
 ```
 
-##
+### Topic Name
+```sql
+Intro :
+
+
+Syntax :
+
+
+Example :
+
+
+Keynote :
+
+```
+
+
+
+
+## Comments
 ```sql
 /*
 
